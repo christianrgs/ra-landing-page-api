@@ -1,0 +1,37 @@
+{
+  "name": "react-avancado-landing-page-api",
+  "private": true,
+  "version": "0.1.0",
+  "description": "CMS application for landing page of the React Avançado course",
+  "author": {
+    "name": "Christian Gonçalves"
+  },
+  "engines": {
+    "node": "14",
+    "npm": ">=6.0.0"
+  },
+  "scripts": {
+    "dev": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "strapi": "3.1.4",
+    "strapi-admin": "3.1.4",
+    "strapi-utils": "3.1.4",
+    "strapi-plugin-content-type-builder": "3.1.4",
+    "strapi-plugin-content-manager": "3.1.4",
+    "strapi-plugin-users-permissions": "3.1.4",
+    "strapi-plugin-email": "3.1.4",
+    "strapi-plugin-upload": "3.1.4",
+    "strapi-connector-bookshelf": "3.1.4",
+    "knex": "<0.20.0",
+    "pg": "latest"
+  },
+  "devDependencies": {},
+  "strapi": {
+    "uuid": "2d25714b-b9b7-4334-9e6d-815a546c997b"
+  },
+  "license": "MIT"
+}
